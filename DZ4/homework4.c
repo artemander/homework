@@ -7,16 +7,16 @@ int main() {
     setlocale(LC_ALL, "RUS");
 
     int A, B, C, result;
-    printf("введите А: \n");
+    printf("ГўГўГҐГ¤ГЁГІГҐ ГЂ: \n");
     scanf("%d",  &A);
-    printf("введите B: \n");
+    printf("ГўГўГҐГ¤ГЁГІГҐ B: \n");
     scanf("%d", &B);
-    printf("введите C: \n");
+    printf("ГўГўГҐГ¤ГЁГІГҐ C: \n");
     scanf("%d", &C);
 
     result = task(A, B, C);
 
-    printf("способность тройной удар: %s\n", result ? "активирована" : "не активированна"  );
+    printf("Г±ГЇГ®Г±Г®ГЎГ­Г®Г±ГІГј ГІГ°Г®Г©Г­Г®Г© ГіГ¤Г Г°: %s\n", result ? "Г ГЄГІГЁГўГЁГ°Г®ГўГ Г­Г " : "Г­ГҐ Г ГЄГІГЁГўГЁГ°Г®ГўГ Г­Г­Г "  );
 
     return 0;
 }
