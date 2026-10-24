@@ -43,7 +43,7 @@ int task(int A, int B, int C) {
 ![](result.jpg)
 
 ## Схема draw.io:
-![Блок-схема](schema.jpg)
+![Блоксхема](schema.jpg)
 
 ## Вывод
 
